@@ -139,6 +139,6 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         push: true
-        context: .
+        context: 3/debian-10
         tags: |
           ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.prep.outputs.BUILD_ID }}
