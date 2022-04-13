@@ -33,7 +33,7 @@ ENV APP_VERSION="3.2.1" \
     PYTHONPATH="/opt/bitnami/spark/python/:$PYTHONPATH" \
     SPARK_HOME="/opt/bitnami/spark"
 
-RUN wget -0 /opt/bitnami/spark/jars https://github.com/pingcap/tispark/releases/download/v2.5.0/tispark-assembly-2.5.0.jar
+RUN curl --output /opt/bitnami/spark/jars/tispark-assembly-2.5.0.jar https://github.com/pingcap/tispark/releases/download/v2.5.0/tispark-assembly-2.5.0.jar
 
 WORKDIR /opt/bitnami/spark
 USER 1001
