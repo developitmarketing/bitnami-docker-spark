@@ -1,3 +1,5 @@
+[![Docker](https://github.com/developitmarketing/bitnami-docker-spark/actions/workflows/build.yml/badge.svg)](https://github.com/developitmarketing/bitnami-docker-spark/actions/workflows/build.yml)
+
 # Apache Spark packaged by Bitnami
 
 ## What is Apache Spark?
